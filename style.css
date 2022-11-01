@@ -1,0 +1,203 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 150px;
+    box-sizing: border-box;
+    background-color: rgb(46, 46, 48);
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
+ 
+.header .logo p{
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+li {
+    color: aliceblue;
+    font-weight: bolder;
+}
+
+.first {
+    display: flex;
+    padding: 120px 150px;
+    background-color: rgb(46, 46, 48);
+    gap: 100px;
+    height: 200px;
+}
+
+.first .title {
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+.first-left {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: space-between;
+}
+
+.first-left div {
+    color: aliceblue;
+}
+
+.first-left button {
+    width: 30%;
+    padding: 4px 8px;
+    background-color: blue;
+    border-radius: 25px;
+    border-width: 0px;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+
+.first-right div {
+    color: aliceblue;
+    
+}
+
+.first-right {
+    display: flex;
+    flex: 1;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+}
+
+.second {
+    display: flex;
+    padding: 50px 150px;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+.info {
+    display: flex;
+    gap: 50px;
+}
+
+.infobox {
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+    border-color: blue;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.box div {
+    font-weight: bold;
+}
+
+.quote {
+    padding: 60px 150px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(204, 198, 198);
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.quote p {
+    font-size: 52px;
+    font-style: italic;
+    padding-left: 200px;
+}
+
+.sig {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.last {
+    padding: 50px 150px;
+    display: flex;
+    justify-content: center;
+    flex: auto;
+    margin-bottom: 60px;
+}
+
+.lastbox {
+    display: flex;
+    flex: auto;
+    border-radius: 10px;
+    background-color: blue;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+}
+
+.last-left {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    width: 70%;
+}
+
+.call {
+    color: aliceblue;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.call2 {
+    color: aliceblue;
+    font-weight: 300;
+}
+
+.last-right {
+    display: flex;
+    flex: auto;
+    width: 30%;
+    justify-content: flex-end;
+}
+
+.sign2 {
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: aliceblue;
+    font-size: 18px;
+    color: aliceblue;
+    background-color: blue;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(22, 20, 20);
+    padding: 40px 150px;
+}
+
+.footer div {
+    color: aliceblue;
+}
